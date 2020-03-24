@@ -1,0 +1,222 @@
+:root {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    }
+    
+    * {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    }
+main {
+    overflow: auto;
+}
+.bgimg {
+    background-image: url(/img/white-and-blue-ceramic-coffee-mug-634524.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+    
+    h1 {
+        text-align: center;
+        padding-top: 100px;
+        color: white;
+        text-shadow: 2px 2px 4px rgb(68, 63, 63);
+    }
+    main{
+        height: calc(100vh - 240px);
+        width: 100%;
+    }
+    form {
+        width: 100%;
+        text-align: center;
+    }
+    fieldset {
+        border: transparent;
+    }
+    input[type="email"] {
+        width: 30%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        opacity: 0.8;
+        border: .04em solid rgb(94, 92, 92);
+        border-radius: 2px;
+        box-shadow: 2px 2px 3px rgb(32, 30, 30);
+        padding: 3px;
+        padding-left: 30px;
+        background-image: url(/img/email.png);
+        background-repeat: no-repeat;
+        background-size: 20px auto;
+        background-position: 5px 0;
+    }
+    input[type="submit"] {
+        margin-left: 3px;
+        padding: 3px;
+        border-radius: 2px;
+        border: 1px solid rgba(255, 0, 0, 0.678);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: red;
+        box-shadow: 2px 2px 3px rgb(32, 30, 30), inset 1px 1px 2px rgb(143, 137, 137);
+        background-color: rgba(248, 215, 215, 0.938);
+        opacity: 0.8;
+}
+input[type="submit"]:hover {
+    box-shadow: 2px 2px 2px rgb(71, 66, 66), inset 2px 2px 2px rgb(51, 49, 49);
+    color: rgb(46, 43, 43);
+}
+input[type="submit"]:active {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.788);
+}   
+
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 2px;
+    border: 0.04em solid rgb(94, 92, 92);
+    border-radius: 2px;
+    opacity: 0.8;
+    border: .04em solid rgb(94, 92, 92);
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px rgb(32, 30, 30);
+    background-color: rgba(231, 221, 221, 0.842);
+}
+label {
+    font-weight: 600;
+    cursor: pointer;
+}
+input[type="checkbox"], input[type="radio"] {
+    display: none;
+}
+.mark {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: transparent;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.circle {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border: transparent;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.checkboxes input+.mark {
+    background-image: url(/img/checkbox.png);
+    background-size: cover;
+    background-position: 0px -616px;
+}
+.checkboxes input:checked+.mark {
+    background-position: 0px 0px;
+}
+.radios input+.circle {
+    background-image: url(/img/radio.png);
+    background-size: cover;
+    background-position: -1px 0px;
+}
+.radios input:checked+.circle {
+    background-position: 0px -65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+
+    }
+    .panel {
+        display: inline-block;
+        width: 222px;
+        height: 32px;
+        text-align: center;
+        margin-top: 1em; 
+        background-image: url(/img/css_sprites\ \(4\).png);
+        background-size: 222px;
+        background-position: 0px -4px;
+        overflow: hidden;
+    }
+    .facebook, .github, .instagram, .twitter, .whatsapp, .youtube {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+    }
+    .facebook a, .github a, .instagram a, .twitter a, .whatsapp a, .youtube a {
+        display: inline-block;
+        background-color: transparent;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .facebook a:hover, .facebook a:active, 
+    .github a:hover, .github a:active,
+    .instagram a:hover, .instagram a:active,
+    .twitter a:hover, .twitter a:active,
+    .whatsapp a:hover, .whatsapp a:active,
+    .youtube a:hover, .youtube a:active {
+        background-image: url(/img/css_sprites\ \(4\).png);
+        width: 32px;
+        height: 32px;
+        background-size: 222px;
+    }
+    .facebook a:hover {
+        background-position: -4px -45px;
+    }
+    .facebook a:active {
+        background-position: -4px -86px;
+    }
+    .github a:hover {
+        background-position: -40px -45px;
+    }
+    .github a:active {
+        background-position: -40px -86px;
+    }
+    .instagram a:hover {
+        background-position: -77px -45px;
+    }
+    .instagram a:active {
+        background-position: -77px -86px;
+    }
+    .twitter a:hover {
+        background-position: -113px -45px;
+    }
+    .twitter a:active {
+        background-position: -113px -86px;
+    }
+    .whatsapp a:hover {
+        background-position: -149px -45px;
+    }
+    .whatsapp a:active {
+        background-position: -149px -86px;
+    }
+    .youtube a:hover {
+        background-position: -186px -45px;
+    }
+    .youtube a:active {
+        background-position: -186px -86px;
+    }
+    
+    
