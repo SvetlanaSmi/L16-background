@@ -136,35 +136,54 @@ footer {
 }
 .panel {
     display: inline-block;
-    width: 222px;
-    height: 34px;
+    width: 229px;
+    height: 35px;
     text-align: center;
     margin-top: 1em;
-    background-image: url(/img/css_sprites\ \(4\).png);
-    background-size: 224px;
-    background-position: -1px -3px;
     overflow: hidden;
     background-color: transparent;
-    padding-top: 0.08em;
 }
-.panel>div {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    background-color: transparent;
-    border-radius: 50%;
-    margin: 0 auto;  
-}
+.panel>div,
 .panel a {
     display: inline-block;
+    width: 34px;
+    height: 34px;
     background-color: transparent;
-    width: 32px;
-    height: 32px;
     border-radius: 50%;
-    cursor: pointer;
     margin: 0 auto;
+    cursor: pointer; 
+    background-size: 100%;
+    background-position: 0 0;
 }
-.panel a:hover,
+.facebook {
+    background-image: url(/img/fb.png);  
+}
+.github {
+    background-image: url(/img/git.png);
+    background-size: cover;
+    background-position: 0 0;
+}
+.instagram {
+    background-image: url(/img/ig.png);
+}
+.twitter {
+    background-image: url(/img/twit.png);
+}
+.whatsapp {
+    background-image: url(/img/wa.png);
+}
+.youtube {
+    background-image: url(/img/css_sprites.png);
+}
+.panel>div:hover {
+    background-position: 0 -34px;
+}
+.panel>div:active {
+    background-position: 0 -68px;
+}
+
+
+/* .panel a:hover,
 .panel a:active {
     background-image: url(/img/css_sprites\ \(4\).png);
     width: 33px;
@@ -208,4 +227,4 @@ footer {
     background-position: -187px -87px;
 }
     
-    
+     */
