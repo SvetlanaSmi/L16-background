@@ -68,7 +68,7 @@ input[type="submit"] {
     background: rgb(238,134,254);
     background: linear-gradient(16deg, rgba(238,134,254,1) 3%, rgba(186,250,252,1) 61%, rgba(255,255,255,1) 87%);
 
-    border-image: repeating-linear-gradient(45deg, 
+    border-image: repeating-linear-gradient(to top left, 
     red, red 2px,
     beige 2px, beige 4px,
     white 4px, white 6px,
@@ -193,39 +193,71 @@ footer {
 .panel>div,
 .panel a {
     display: inline-block;
-    width: 34px;
-    height: 34px;
+    width: 32px;
+    height: 32px;
     background-color: transparent;
     border-radius: 50%;
     margin: 0 auto;
     cursor: pointer; 
-    background-size: 100%;
-    background-position: 0 0;
+    background-size: 232px;
 }
 .facebook {
-    background-image: url(/img/fb.png);  
+    background-image: url(/img/css_sprites\ \(4\).png);
+    background-position: -5px -5px;   
+}
+.facebook:hover {
+    background-position: -5px -48px;
+}
+.facebook:active {
+    background-position: -5px -91px;
 }
 .github {
-    background-image: url(/img/git.png);
-    background-size: cover;
-    background-position: 0 0;
+    background-image: url(/img/css_sprites\ \(4\).png);
+    background-position: -43px -5px;
+}
+.github:hover {
+    background-position: -43px -48px;
+}
+.github:active {
+    background-position: -43px -91px;
 }
 .instagram {
-    background-image: url(/img/ig.png);
+    background-image: url(/img/css_sprites\ \(4\).png);
+    background-position: -81px -5px;
+}
+.instagram:hover {
+    background-position: -81px -48px;
+}
+.instagram:active {
+    background-position: -81px -91px;
 }
 .twitter {
-    background-image: url(/img/twit.png);
+    background-image: url(/img/css_sprites\ \(4\).png);
+    background-position: -119px -5px;
+}
+.twitter:hover {
+    background-position: -119px -48px;
+}
+.twitter:active {
+    background-position: -119px -91px;
 }
 .whatsapp {
-    background-image: url(/img/wa.png);
+    background-image: url(/img/css_sprites\ \(4\).png);
+    background-position: -157px -5px;
+}
+.whatsapp:hover {
+    background-position: -157px -48px;
+}
+.whatsapp:active {
+    background-position: -157px -91px;
 }
 .youtube {
-    background-image: url(/img/css_sprites.png);
+    background-image: url(/img/css_sprites\ \(4\).png);
+    background-position: -195px -5px;
 }
-.panel>div:hover {
-    background-position: 0 -34px;
+.youtube:hover {
+    background-position: -195px -48px;
 }
-.panel>div:active {
-    background-position: 0 -68px;
+.youtube:active {
+    background-position: -195px -91px;
 }
-
